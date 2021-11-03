@@ -1,1 +1,105 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  color: #002555;
+}
+
+.white-text {
+  color: #f8f9fa;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #9c9c9c;
+}
+
+.page-header {
+  background-image: url("../assets/NP_home_hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cta-btn {
+  background-color: #5cb2e1;
+  color: #f8f9fa;
+}
+
+.accent-bg {
+  background-color: #5cb2e1;
+}
+
+.accent-border {
+  border-color: #5cb2e1;
+}
+
+.section-title {
+  color: #002555;
+}
+
+.section-title-border {
+  border-color: #89bfdb;
+}
+
+.services-desc {
+  background-color: #add4f1;
+}
+
+.services-item {
+  height: 450px;
+}
+
+.services-item .services-desc-text {
+  color: #7891a2;
+}
+
+.services-item .services-desc-cta {
+  color: #000309;
+}
+
+.services-item .services-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.services-item .img-1 {
+  background-image: url("../assets/1.jpg");
+}
+
+.services-item .img-2 {
+  background-image: url("../assets/2.jpg");
+}
+
+.services-item .img-3 {
+  background-image: url("../assets/3.jpg");
+}
+
+.services-item .img-4 {
+  background-image: url("../assets/4.jpg");
+}
+
+.mid-cta-section {
+  background-image: url("../assets/pattern-dot.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.insights-bg {
+  background-color: #f1f1f1;
+}
+
+.insights-cta-bg {
+  background-color: #002555;
+}
+/*# sourceMappingURL=style.css.map */

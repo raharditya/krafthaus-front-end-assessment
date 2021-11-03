@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
@@ -11,5 +17,488 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Northside Psychology</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="py-8 sticky top-0 bg-white shadow-xl z-50">
+      <div
+        class="
+          md:w-4/5
+          2xl:container
+          md:mx-auto md:flex md:justify-between md:items-center
+        "
+      >
+        <img
+          src="./assets/Northside logos COL.png"
+          alt="Northside Psychology Logo"
+          class="h-10"
+        />
+        <ul class="md:flex">
+          <li class="nav-link mr-8">
+            <a href="#" class="text-xs uppercase">Where to start?</a>
+          </li>
+          <li class="nav-link mr-8">
+            <a href="#" class="text-xs uppercase">Our service</a>
+          </li>
+          <li class="nav-link mr-8">
+            <a href="#" class="text-xs uppercase">Our psychologist</a>
+          </li>
+          <li class="nav-link mr-8">
+            <a href="#" class="text-xs uppercase">Wellness and support</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="nav-link text-xs uppercase py-3 px-6 rounded-full cta-btn"
+              >Book an appointement</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="page-header py-20">
+      <div class="md:container md:mx-auto md:px-10 2xl:px-0">
+        <h1 class="white-text font-normal text-4xl leading-10">
+          There is hope.
+        </h1>
+        <h1 class="white-text font-normal text-4xl leading-10 mb-12">
+          We are here.
+        </h1>
+
+        <a
+          href="#"
+          class="nav-link text-xs uppercase py-4 px-8 rounded-full cta-btn"
+          >Reach out today</a
+        >
+      </div>
+    </header>
+
+    <section class="accent-bg text-center">
+      <div class="md:container md:mx-auto">
+        <div class="py-20">
+          <h2
+            class="
+              text-4xl
+              section-title
+              inline-block
+              border-b border-white
+              mb-12
+            "
+          >
+            Welcome
+          </h2>
+          <p class="white-text w-3/5 mx-auto italic">
+            Welcome! We are so pleased that whatever has brought you on your
+            search today has led you to Northside Psychology! Our team are ready
+            to work with you and your unique needs and hope to play a part in
+            your journey forward.
+          </p>
+        </div>
+      </div>
+      <div class="pb-40"></div>
+    </section>
+
+    <section class="-mt-40 text-center mb-16">
+      <img src="./assets/Video 2 colour.jpg" alt="" class="inline-block h-80" />
+      <p class="font-semibold mt-4 text-sm section-title">Watch video</p>
+    </section>
+
+    <section>
+      <div class="text-center">
+        <h2
+          class="
+            text-4xl
+            section-title
+            inline-block
+            border-b-2
+            section-title-border
+            mb-12
+          "
+        >
+          Where to start?
+        </h2>
+      </div>
+
+      <div class="services-item md:flex">
+        <div class="services-img img-1 w-1/2 h-full"></div>
+        <div class="services-desc w-1/2 h-full p-20 flex items-center">
+          <div class="services-desc-inner">
+            <h3
+              class="
+                text-4xl
+                inline-block
+                w-20
+                mb-4
+                leading-loose
+                border-b-2
+                accent-border
+                white-text
+              "
+            >
+              01
+            </h3>
+            <h3 class="text-3xl mb-6 tracking-wide">How can I help myself?</h3>
+
+            <p class="services-desc-text text-sm tracking-wide w-5/6 mb-10">
+              Phasellus commodo diam consectetur tortor dictum euismod. Sed
+              vehicula magna tellus, non finibus dui tincidunt eget. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit
+            </p>
+
+            <a href="#" class="services-desc-cta font-semibold"
+              ><img
+                src="./assets/chevron-services.svg"
+                alt=""
+                class="h-3 pr-3 inline"
+              />Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="services-item md:flex md:flex-row-reverse">
+        <div class="services-img img-2 w-1/2 h-full"></div>
+        <div class="services-desc w-1/2 h-full p-20 flex items-center">
+          <div class="services-desc-inner text-right">
+            <h3
+              class="
+                text-4xl
+                inline-block
+                w-20
+                mb-4
+                leading-loose
+                border-b-2
+                accent-border
+                white-text
+              "
+            >
+              02
+            </h3>
+            <h3 class="text-3xl mb-6 tracking-wide">
+              How can I build better relationships?
+            </h3>
+
+            <p
+              class="
+                services-desc-text
+                text-sm
+                tracking-wide
+                w-5/6
+                ml-auto
+                mb-10
+              "
+            >
+              Phasellus commodo diam consectetur tortor dictum euismod. Sed
+              vehicula magna tellus, non finibus dui tincidunt eget. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit
+            </p>
+
+            <a href="#" class="services-desc-cta font-semibold"
+              ><img
+                src="./assets/chevron-services.svg"
+                alt=""
+                class="h-3 pr-3 inline"
+              />Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="services-item md:flex">
+        <div class="services-img img-3 w-1/2 h-full"></div>
+        <div class="services-desc w-1/2 h-full p-20 flex items-center">
+          <div class="services-desc-inner">
+            <h3
+              class="
+                text-4xl
+                inline-block
+                w-20
+                mb-4
+                leading-loose
+                border-b-2
+                accent-border
+                white-text
+              "
+            >
+              03
+            </h3>
+            <h3 class="text-3xl mb-6 tracking-wide">
+              How can I help my child?
+            </h3>
+
+            <p class="services-desc-text text-sm tracking-wide w-5/6 mb-10">
+              Phasellus commodo diam consectetur tortor dictum euismod. Sed
+              vehicula magna tellus, non finibus dui tincidunt eget. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit
+            </p>
+
+            <a href="#" class="services-desc-cta font-semibold"
+              ><img
+                src="./assets/chevron-services.svg"
+                alt=""
+                class="h-3 pr-3 inline"
+              />Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="services-item md:flex md:flex-row-reverse">
+        <div class="services-img img-4 w-1/2 h-full"></div>
+        <div class="services-desc w-1/2 h-full p-20 flex items-center">
+          <div class="services-desc-inner text-right">
+            <h3
+              class="
+                text-4xl
+                inline-block
+                w-20
+                mb-4
+                leading-loose
+                border-b-2
+                accent-border
+                white-text
+              "
+            >
+              04
+            </h3>
+            <h3 class="text-3xl mb-6 tracking-wide">
+              How can I build someone else?
+            </h3>
+
+            <p
+              class="
+                services-desc-text
+                text-sm
+                tracking-wide
+                w-5/6
+                ml-auto
+                mb-10
+              "
+            >
+              Phasellus commodo diam consectetur tortor dictum euismod. Sed
+              vehicula magna tellus, non finibus dui tincidunt eget. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit
+            </p>
+
+            <a href="#" class="services-desc-cta font-semibold"
+              ><img
+                src="./assets/chevron-services.svg"
+                alt=""
+                class="h-3 pr-3 inline"
+              />Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mid-cta-section py-24 text-center">
+      <div class="mb-12">
+        <h2
+          class="
+            text-4xl
+            section-title
+            inline-block
+            border-b-2
+            section-title-border
+            border-white
+          "
+        >
+          In need of some extra support right now?
+        </h2>
+      </div>
+      <a
+        href="#"
+        class="nav-link text-xs uppercase py-4 px-8 rounded-full cta-btn"
+        >Book an appointement</a
+      >
+    </section>
+
+    <section class="insights-bg py-20">
+      <div class="md:container md:mx-auto md:px-16">
+        <div class="text-center">
+          <h2
+            class="
+              text-4xl
+              section-title
+              inline-block
+              border-b-2
+              section-title-border
+              mb-12
+            "
+          >
+            Insights
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-3 gap-16">
+          <div class="border-t-4 accent-border bg-white">
+            <img src="./assets/blog-1.jpg" alt="" class="w-full" />
+            <div class="p-6">
+              <h3 class="mb-4 text-lg">
+                Ut wisi enim ad nimin veniam quis nostrud magna.
+              </h3>
+
+              <p class="text-sm mb-6">
+                Lorem ipsum dolor sit amet consectetu adipiscing elit, sed
+                diamos nonummy nubh euismod tincidunt.
+              </p>
+
+              <a href="#">
+                <div
+                  class="
+                    h-12
+                    w-12
+                    p-4
+                    flex
+                    items-center
+                    justify-center
+                    rounded-full
+                    accent-bg
+                  "
+                >
+                  <img src="./assets/chevron-insights.svg" alt="" class="h-4" />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="border-t-4 accent-border bg-white">
+            <img src="./assets/blog-2.jpg" alt="" class="w-full" />
+            <div class="p-6">
+              <h3 class="mb-4 text-lg">
+                Ut wisi enim ad nimin veniam quis nostrud magna.
+              </h3>
+
+              <p class="text-sm mb-6">
+                Lorem ipsum dolor sit amet consectetu adipiscing elit, sed
+                diamos nonummy nubh euismod tincidunt.
+              </p>
+
+              <a href="#">
+                <div
+                  class="
+                    h-12
+                    w-12
+                    p-4
+                    flex
+                    items-center
+                    justify-center
+                    rounded-full
+                    accent-bg
+                  "
+                >
+                  <img src="./assets/chevron-insights.svg" alt="" class="h-4" />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="border-t-4 accent-border bg-white">
+            <img src="./assets/blog-3.jpg" alt="" class="w-full" />
+            <div class="p-6">
+              <h3 class="mb-4 text-lg">
+                Ut wisi enim ad nimin veniam quis nostrud magna.
+              </h3>
+
+              <p class="text-sm mb-6">
+                Lorem ipsum dolor sit amet consectetu adipiscing elit, sed
+                diamos nonummy nubh euismod tincidunt.
+              </p>
+
+              <a href="#">
+                <div
+                  class="
+                    h-12
+                    w-12
+                    p-4
+                    flex
+                    items-center
+                    justify-center
+                    rounded-full
+                    accent-bg
+                  "
+                >
+                  <img src="./assets/chevron-insights.svg" alt="" class="h-4" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-16">
+          <a
+            href="#"
+            class="
+              insights-cta-bg
+              nav-link
+              text-xs
+              uppercase
+              py-4
+              px-8
+              rounded-full
+              cta-btn
+            "
+            >View all</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer class="">
+      <div class="py-10 bg-blue-900">
+        <div
+          class="
+            md:w-4/5
+            2xl:container
+            md:mx-auto md:flex md:justify-between md:items-center
+          "
+        >
+          <img
+            src="./assets/Northside logos COL.png"
+            alt="Northside Psychology Logo"
+            class="h-10"
+          />
+          <ul class="md:flex">
+            <li class="nav-link mr-8">
+              <a href="#" class="text-xs uppercase white-text"
+                >Where to start?</a
+              >
+            </li>
+            <li class="nav-link mr-8">
+              <a href="#" class="text-xs uppercase white-text">Our service</a>
+            </li>
+            <li class="nav-link mr-8">
+              <a href="#" class="text-xs uppercase white-text"
+                >Our psychologist</a
+              >
+            </li>
+            <li class="nav-link mr-8">
+              <a href="#" class="text-xs uppercase white-text"
+                >Wellness and support</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="
+                  nav-link
+                  text-xs
+                  uppercase
+                  py-3
+                  px-6
+                  rounded-full
+                  cta-btn
+                "
+                >Book an appointement</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-white py-4 md:w-4/5 md:mx-auto">
+        <small>&copy; 2020 Northside Psychology, All rights reserved.</small>
+      </div>
+    </footer>
+  </body>
 </html>

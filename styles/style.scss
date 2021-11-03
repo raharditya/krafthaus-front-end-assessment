@@ -1,0 +1,114 @@
+$WHITE-TEXT: #f8f9fa;
+$MAIN-ACCENT: #5cb2e1;
+$NAV-ITEM: #9c9c9c;
+$SECTION-TITLE: #002555;
+$SECTION-TITLE-BORDER: #89bfdb;
+$SERVICES-DESC-BG: #add4f1;
+$SERVICES-DESC-TEXT: #7891a2;
+$SERVICES-DESC-CTA: #000309;
+$INSIGHTS-BG: #f1f1f1;
+
+body {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  color: $SECTION-TITLE;
+}
+
+.white-text {
+  color: $WHITE-TEXT;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: $NAV-ITEM;
+}
+
+.page-header {
+  background-image: url("../assets/NP_home_hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cta-btn {
+  background-color: $MAIN-ACCENT;
+  color: $WHITE-TEXT;
+}
+
+.accent-bg {
+  background-color: $MAIN-ACCENT;
+}
+
+.accent-border {
+  border-color: $MAIN-ACCENT;
+}
+
+.section-title {
+  color: $SECTION-TITLE;
+}
+
+.section-title-border {
+  border-color: $SECTION-TITLE-BORDER;
+}
+
+.services-desc {
+  background-color: $SERVICES-DESC-BG;
+}
+
+.services-item {
+  height: 450px;
+
+  .services-desc-text {
+    color: $SERVICES-DESC-TEXT;
+  }
+
+  .services-desc-cta {
+    color: $SERVICES-DESC-CTA;
+  }
+
+  .services-img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .img-1 {
+    background-image: url("../assets/1.jpg");
+  }
+
+  .img-2 {
+    background-image: url("../assets/2.jpg");
+  }
+
+  .img-3 {
+    background-image: url("../assets/3.jpg");
+  }
+
+  .img-4 {
+    background-image: url("../assets/4.jpg");
+  }
+}
+
+.mid-cta-section {
+  background-image: url("../assets/pattern-dot.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.insights-bg {
+  background-color: $INSIGHTS-BG;
+}
+
+.insights-cta-bg {
+  background-color: $SECTION-TITLE;
+}

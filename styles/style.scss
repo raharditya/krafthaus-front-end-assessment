@@ -112,3 +112,19 @@ h6 {
 .insights-cta-bg {
   background-color: $SECTION-TITLE;
 }
+
+@media (max-width: 768px) {
+  .video-thumb {
+    height: 10rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .services-item {
+    height: auto;
+
+    .services-img {
+      height: 300px;
+    }
+  }
+}
